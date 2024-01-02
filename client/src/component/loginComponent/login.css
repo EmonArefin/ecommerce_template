@@ -1,0 +1,38 @@
+.login-section {
+    max-width: 600px;
+    margin: 85px auto  0 auto;
+    padding: 45px 30px;
+    border: 1px solid #f35d36;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.login-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+@media (max-width: 630px) { 
+    .login-section {
+        margin: 35px 25px 
+    }
+}
+
+.login-section .btn {
+    cursor: pointer;
+    background-color: #f35d36;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+}
+
+.login-section .btn:hover {
+    background-color: #29375d;
+}

@@ -1,0 +1,38 @@
+/* Add your existing CSS styles here */
+
+#blog {
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    padding: 50px 0;
+    color: #212529; /* Adjust text color as needed */
+  }
+  
+  .blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .blog-post {
+    width: 48%; /* Adjust post width as needed */
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #dee2e6; /* Adjust border color as needed */
+    border-radius: 5px;
+    background-color: #fff; /* Adjust post background color as needed */
+  }
+  
+  .blog-post h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007bff; /* Adjust heading color as needed */
+  }
+  
+  .blog-post p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  /* Add more styles as needed */
+  
+  /* End of existing CSS styles */
+  

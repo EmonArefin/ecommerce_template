@@ -1,0 +1,55 @@
+/* faqStyles.css */
+
+#faq {
+    background-color: #212121;
+    color: white;
+    padding: 20px;
+  }
+  
+  .faq-section-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .hr-style {
+    border-color: white;
+    margin: auto;
+  }
+  
+  .faq-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Customize accordion styling */
+  .accordion {
+    margin: 80px;
+    background-color: grey;
+    gap: 15px;
+  }
+
+  /* .accordion-header {
+    background-color: #212529;
+    color: rgb(26, 22, 22);
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid #343a40;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }  */
+  
+   .accordion-button {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  /* .accordion-body {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    border: 1px solid #212529;
+    border-radius: 5px;
+  } */
+  
+  /* Add more styles as needed */
+  

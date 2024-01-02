@@ -1,0 +1,65 @@
+/* feedback start */
+#feedback{
+    padding: 20px;
+    background: #212121;
+    color: white;
+  }
+  .feedback-card:hover {
+    border: 1px solid #0d6efd;
+    transform: scale(1.05);
+  }
+  .feedback-card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+  .feedback-img{
+    width: 80px;
+    height: auto;
+    text-align: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    text-align: center;
+    padding: 5% 10%;
+  }
+  .cards .feedback-card {
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 400px;
+    width: 450px; */
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.5s;
+    background: rgba(33, 33, 33, 0.58);
+    box-shadow: 12px 17px 51px rgba(13, 110, 253, 0.22);
+    padding: 2%;
+  }
+  
+  .tip {
+    color: #0d6efd;
+  }
+  
+  /* .carousel-control-prev,
+  .carousel-control-next { */
+    /* Customize the position of previous and next controls */
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  } */
+  
+  .carousel-control-prev {
+    left: -30px; /* Adjust the value to change the position from the left */
+  }
+  
+  .carousel-control-next {
+    right: -30px; /* Adjust the value to change the position from the right */
+  }
+  .carousel-indicators {
+    bottom: -40px;
+  }
+  /* feedback end */

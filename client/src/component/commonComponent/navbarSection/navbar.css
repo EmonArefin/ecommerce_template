@@ -1,0 +1,32 @@
+.active-item{
+    color: #f35d36;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.pending-item{
+    color: black;
+    text-decoration: none;
+    font-weight: 600 !important;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.pending-item:hover {
+    background: #29375d;
+    color: white;
+}
+
+.nav-but {
+    font-weight: bold;
+    color: #29375d;
+    border: 1px solid #f35d36;
+    color: #f35d36;
+}
+
+.nav-but:hover {
+    background-color: #f35d36;
+    border-color: #f35d36;
+    color: white;
+}

@@ -1,0 +1,34 @@
+#product {
+  background: #212121;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+    margin-top: 50px;
+  }
+  
+  .featured-heading {
+    text-align: center;
+  }
+  
+  .cardControll {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+    .cardControll:hover {
+      border: 1px solid #0d6efd;
+      transform: scale(1.05);
+    }
+  
+  
+  .productImg {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Add more styles as needed */
+  
